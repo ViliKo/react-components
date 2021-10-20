@@ -1,13 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Heading from "./Heading";
-import List from "./List";
+import App from "./App";
+
 // i dont want
 
-ReactDOM.render(
-  <div>
-    <Heading />
-    <List />
-  </div>,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
